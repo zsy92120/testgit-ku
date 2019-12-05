@@ -62,7 +62,7 @@ int main(int   argc,char   *argv[])
 //	UCHAR	value;
 	UCHAR	data[12];
 	//int i;
-	io8255 		adt860iod;
+	io8255 		adt860iod;//io8255是一个结构体
 	io8255 *	adt860io =&adt860iod;
    static DWORD j = 0;	
     DWORD	uexitcode;
@@ -137,7 +137,7 @@ int main(int   argc,char   *argv[])
 	hEvent = CreateEvent(NULL, FALSE, FALSE, NULL);         //创建一个事件
 ADT860_SetEvent(hWdm1,hEvent);
 	HANDLE hThread = CreateThread(NULL, 0, ThreadProc, NULL, 0, &junk);
-
+	
 	while (1){
 		
 		Sleep(2);

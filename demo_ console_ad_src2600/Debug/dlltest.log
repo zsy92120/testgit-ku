@@ -1,5 +1,5 @@
-﻿生成启动时间为 2019/12/3 10:33:13。
-     1>项目“E:\SRC2600 配置、测试、编程资料\driver\ADT860 驱动for Windows 发行版V7.2.2\demo\demo code console\dlltest.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2019/12/5 11:58:22。
+     1>项目“E:\testgit\demo_ console_ad_src2600\dlltest.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“.\Debug\dlltest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
@@ -8,20 +8,20 @@
        ManifestResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\dlltest.exe.embed.manifest.res" .\Debug\dlltest_manifest.rc 
        Link:
-         d:\zhaoshengyan\vsIDE\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\dlltest.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\dlltest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\SRC2600 配置、测试、编程资料\driver\ADT860 驱动for Windows 发行版V7.2.2\demo\demo code console\Debug\dlltest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\dlltest.lib" /MACHINE:X86 .\Debug\dlltest.exe.embed.manifest.res
+         d:\zhaoshengyan\vsIDE\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\dlltest.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\dlltest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\testgit\demo_ console_ad_src2600\Debug\dlltest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\dlltest.lib" /MACHINE:X86 .\Debug\dlltest.exe.embed.manifest.res
          .\Debug\adtest.obj
+         LINK : 缺少程序数据库 E:\testgit\demo_ console_ad_src2600\Debug\dlltest.pdb；正在执行完全链接
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\dlltest.exe.embed.manifest" /manifest .\Debug\dlltest.exe.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\dlltest.exe.embed.manifest.res" .\Debug\dlltest_manifest.rc 
+         所有输出均为最新。
        LinkEmbedManifest:
-         d:\zhaoshengyan\vsIDE\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\dlltest.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\dlltest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\SRC2600 配置、测试、编程资料\driver\ADT860 驱动for Windows 发行版V7.2.2\demo\demo code console\Debug\dlltest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\dlltest.lib" /MACHINE:X86 .\Debug\dlltest.exe.embed.manifest.res
-         .\Debug\adtest.obj
-         dlltest.vcxproj -> E:\SRC2600 配置、测试、编程资料\driver\ADT860 驱动for Windows 发行版V7.2.2\demo\demo code console\.\Debug\dlltest.exe
+         所有输出均为最新。
+         dlltest.vcxproj -> E:\testgit\demo_ console_ad_src2600\.\Debug\dlltest.exe
        FinalizeBuildStatus:
          正在删除文件“.\Debug\dlltest.unsuccessfulbuild”。
          正在对“.\Debug\dlltest.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“E:\SRC2600 配置、测试、编程资料\driver\ADT860 驱动for Windows 发行版V7.2.2\demo\demo code console\dlltest.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“E:\testgit\demo_ console_ad_src2600\dlltest.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:04.25
+已用时间 00:00:01.59
