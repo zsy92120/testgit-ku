@@ -137,7 +137,13 @@ int main(int   argc,char   *argv[])
 	hEvent = CreateEvent(NULL, FALSE, FALSE, NULL);         //创建一个事件
 ADT860_SetEvent(hWdm1,hEvent);
 	HANDLE hThread = CreateThread(NULL, 0, ThreadProc, NULL, 0, &junk);
-	
+/*	LPSECURITY_ATTRIBUTESlpThreadAttributes,*///线程安全属性
+//DWORDdwStackSize,//堆栈大小
+//LPTHREAD_START_ROUTINElpStartAddress,//线程函数
+//LPVOIDlpParameter,//线程参数
+//DWORDdwCreationFlags,//线程创建属性
+//LPDWORDlpThreadId//线程ID
+	//testgit
 	while (1){
 		
 		Sleep(2);
